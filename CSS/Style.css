@@ -2188,6 +2188,20 @@ body {
   justify-content: center;
 }
 
+.card-container {
+  width: 30rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  background-color: rgba(6, 104, 139, 0.3);
+  border-radius: 15px;
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border: 2px solid rgba(49, 172, 209, 0.5);
+}
+
 .hover\:font-bold:hover {
   font-weight: 700;
 }
