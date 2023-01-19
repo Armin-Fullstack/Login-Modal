@@ -9,29 +9,32 @@
 </head>
 <body>
     <!-- Card Container -->
-    <div class="card-container">
-        <!-- Content Container -->
-       <div class="pt-5 px-8 pb-3">
+    <div class="card-container pt-5 px-8 pb-3">
+        
         <h1 class="text-4xl text-left font-bold">Log In</h1>
         <p class="max-w-sm text-left mt-6 mb-11 text-lg">Log in to your account to upload or download pictures, videos or music.</p>
         <input class="w-full p-5 rounded-lg bg-transparent outline-none border border-slate-400 text-white placeholder:text-md" type="email" placeholder="Enter your email address">
+
         <!-- Forgot Password & Button -->
-        <div class="flex flex-col md:flex-row">
-            <a href="#" class="text-center my-5">Forgot password?</a>
-            <button class="text-white bg-cyan-600 rounded-lg p-3">Next</button>
+        <div class="flex flex-col md:flex-row md:justify-between md:items-center space-y-6 md:space-y-0 mt-7">
+            <a href="#" class="text-center">Forgot password?</a>
+            <button class="text-white bg-cyan-600 rounded-lg p-3 md:px-10">Next</button>
         </div>
-       </div>
 
        <!-- Border -->
-       <div></div>
+       <div class="border border-slate-400 mt-12 mb-6"></div>
 
+        <p class="text-center">or log in with</p>
        <!-- Icons container -->
-       <div>
-            <p></p>
-            <div>
-                <a href="#"><img src="" alt=""></a>
-                <a href="#"><img src="" alt=""></a>
-               </div>
+       <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 mt-6">
+                <button class="flex items-center justify-center space-x-3 py-2 border md:w-1/2">
+                    <img src="Image/facebook.png" alt="Facebook" class="w-9">
+                    <span>Facebook</span>
+                </button>
+                 <button class="flex items-center justify-center space-x-3 py-2 border md:w-1/2">
+                    <img src="Image/google.png" alt="Facebook" class="w-9">
+                    <span>Google</span>
+                </button>
        </div>
        
     </div>

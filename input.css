@@ -11,7 +11,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    background-attachment: fixed;
 }
 
 .card-container {
