@@ -12,15 +12,21 @@ body {
     align-items: center;
     justify-content: center;
     background-attachment: fixed;
+    -webkit-tab-highlight-color: transparent;
+    -moz-tab-tap-highlight-color: transparent;
+    
 }
 
 .card-container {
     display: flex;
     flex-direction: column;
     column-gap: 5px;
-    background-color: rgba(6, 104, 139, 0.3);
+    background-image: linear-gradient(45deg,rgba(255, 255, 255, 0.1),rgba(255, 255, 255,0.4));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     border-radius: 15px;
-    backdrop-filter: blur(1px);
-    -webkit-backdrop-filter: blur(1px);
-    border: 2px solid rgba(49, 172, 209, 0.5);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 2px solid rgb(255, 255, 255);
 }

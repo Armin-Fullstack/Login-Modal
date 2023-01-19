@@ -4,34 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/Style.css">
     <title>Login Modal</title>
 </head>
 <body>
     <!-- Card Container -->
-    <div class="card-container pt-5 px-8 pb-3">
+    <div class="card-container pb-7 px-8 pt-8">
         
-        <h1 class="text-4xl text-left font-bold">Log In</h1>
-        <p class="max-w-sm text-left mt-6 mb-11 text-lg">Log in to your account to upload or download pictures, videos or music.</p>
-        <input class="w-full p-5 rounded-lg bg-transparent outline-none border border-slate-400 text-white placeholder:text-md" type="email" placeholder="Enter your email address">
+        <h1 class="text-4xl text-left">Log in</h1>
+        <p class="max-w-sm text-left mt-6 mb-9 text-md text-gray-600">Log in to your account to upload or download pictures, videos or music.</p>
+        <input class="w-full p-5 rounded-lg opacity-50 outline-none border border-slate-400 placeholder:text-sm shadow-md
+         shadow-[rgba(0,0,0,0.4)] placeholder:text-gray-600" type="email" placeholder="Enter your email address">
 
         <!-- Forgot Password & Button -->
         <div class="flex flex-col md:flex-row md:justify-between md:items-center space-y-6 md:space-y-0 mt-7">
-            <a href="#" class="text-center">Forgot password?</a>
-            <button class="text-white bg-cyan-600 rounded-lg p-3 md:px-10">Next</button>
+            <a href="#" class="text-center text-blue-800">Forgot password?</a>
+            <button class="text-white bg-cyan-600 rounded-lg p-3 md:px-10 duration-500 hover:-translate-y-1 tracking-wider">Next</button>
         </div>
 
        <!-- Border -->
        <div class="border border-slate-400 mt-12 mb-6"></div>
 
-        <p class="text-center">or log in with</p>
+        <p class="text-center text-gray-600">or log in with</p>
        <!-- Icons container -->
-       <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 mt-6">
-                <button class="flex items-center justify-center space-x-3 py-2 border md:w-1/2">
+       <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 mt-7">
+                <button class="flex items-center justify-center space-x-3 py-2 border rounded-lg hover:bg-cyan-400 duration-300 hover:border-cyan-400 md:w-1/2">
                     <img src="Image/facebook.png" alt="Facebook" class="w-9">
                     <span>Facebook</span>
                 </button>
-                 <button class="flex items-center justify-center space-x-3 py-2 border md:w-1/2">
+                 <button class="flex items-center justify-center space-x-3 py-2 border rounded-lg md:w-1/2 hover:bg-cyan-400 hover:border-cyan-400 duration-300">
                     <img src="Image/google.png" alt="Facebook" class="w-9">
                     <span>Google</span>
                 </button>
