@@ -653,16 +653,6 @@ video {
   clear: none;
 }
 
-.mx-1 {
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
-}
-
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -678,6 +668,10 @@ video {
 
 .mt-7 {
   margin-top: 1.75rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .mt-12 {
@@ -1820,16 +1814,12 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.pb-6 {
-  padding-bottom: 1.5rem;
+.pb-7 {
+  padding-bottom: 1.75rem;
 }
 
 .pt-8 {
   padding-top: 2rem;
-}
-
-.pb-7 {
-  padding-bottom: 1.75rem;
 }
 
 .text-left {
@@ -1891,6 +1881,16 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold {
@@ -2193,12 +2193,6 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
 }
 
-.shadow-lg {
-  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .shadow-\[rgba\(0\2c 0\2c 0\2c 0\.4\)\] {
   --tw-shadow-color: rgba(0,0,0,0.4);
   --tw-shadow: var(--tw-shadow-colored);
@@ -2318,10 +2312,6 @@ video {
   transition-duration: 500ms;
 }
 
-.duration-200 {
-  transition-duration: 200ms;
-}
-
 .duration-300 {
   transition-duration: 300ms;
 }
@@ -2395,10 +2385,6 @@ body {
 .hover\:-translate-y-1:hover {
   --tw-translate-y: -0.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:border-none:hover {
-  border-style: none;
 }
 
 .hover\:border-cyan-400:hover {
@@ -2477,6 +2463,10 @@ body {
   .md\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
   }
 
   .md\:w-1\/2 {
